@@ -7,6 +7,11 @@ body, html{
     background-repeat: no-repeat;
     background-position: center;
 }
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
 .nav{
     margin: 0 auto;
     border-bottom: 0.5px solid white;
@@ -75,5 +80,34 @@ body, html{
         font-weight: 500;
         font-size: 16px;
         margin-bottom: 335px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.main{
+    height: 700px;
+    &-info-text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 110px;
+        align-items: center;
+        &-logo{
+            width: 740px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 53px;
+            color: #323232;
+        }
+        &-text{
+            margin-top: 50px;
+            width: 740px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            text-align: center;
+            color: #999999
+        }
     }
 }
